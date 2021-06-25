@@ -14,7 +14,8 @@ import android.widget.Toast;
 
 import java.util.Locale;
 
-public class StartMountainClimbing extends AppCompatActivity {
+public class StartMountainClimbing extends AppCompatActivity
+{
     ImageView imgTimer;
     TextView timerValue;
     View view;
@@ -27,7 +28,8 @@ public class StartMountainClimbing extends AppCompatActivity {
     Animation alpha;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start_workout);
         getSupportActionBar().hide();
@@ -51,7 +53,8 @@ public class StartMountainClimbing extends AppCompatActivity {
             imgDisplay.setImageResource(resId);
         }
 
-        view.setOnClickListener(new View.OnClickListener() {
+        view.setOnClickListener(new View.OnClickListener()
+        {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(getApplicationContext(),WorkoutsActivity.class);
@@ -60,16 +63,20 @@ public class StartMountainClimbing extends AppCompatActivity {
         });
     }
 
-    private void startTimer(){
-        countDownTimer = new CountDownTimer(mTimeLeftInMillis, 1000) {
+    private void startTimer()
+    {
+        countDownTimer = new CountDownTimer(mTimeLeftInMillis, 1000)
+        {
             @Override
-            public void onTick(long millisUntilFinished) {
+            public void onTick(long millisUntilFinished)
+            {
                 mTimeLeftInMillis = millisUntilFinished;
                 updateCountDownText();
             }
 
             @Override
-            public void onFinish() {
+            public void onFinish()
+            {
                 Toast.makeText(getApplicationContext(),"Done!", Toast.LENGTH_SHORT).show();
             }
         }.start();
