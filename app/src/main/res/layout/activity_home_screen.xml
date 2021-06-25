@@ -230,16 +230,9 @@ android:text="Get Started"
         android:layout_marginTop="10dp"
         android:layout_margin="15dp"
         android:orientation="vertical"
-        android:background="@drawable/bgitemcolor"
-        >
-
+        android:background="@drawable/bgitemcolor">
     </LinearLayout>
-
-
-
-
     </LinearLayout>
-
 </ScrollView>
 
 </LinearLayout>
