@@ -18,6 +18,8 @@ public class StartMountainClimbing extends AppCompatActivity {
     ImageView imgTimer;
     TextView timerValue;
     View view;
+    ImageView imgDisplay;
+    TextView details, name;
     private static final long START_TIME_IN_MILLIS = 50000;
     public CountDownTimer countDownTimer;
    public boolean mTimerRunning;
@@ -36,6 +38,18 @@ public class StartMountainClimbing extends AppCompatActivity {
         timerValue.startAnimation(alpha);
         imgTimer.startAnimation(alpha);
         startTimer();
+        name=findViewById(R.id.fitonetitle);
+        String fName = getIntent().getStringExtra("Name");
+        name.setText(fName);
+        details=findViewById(R.id.subintropage);
+        imgDisplay=findViewById(R.id.imgEx);
+        String detail=getIntent().getStringExtra("Details");
+        details.setText(detail);
+        Bundle bundle = getIntent().getExtras();
+        if (bundle != null) {
+            int resId = bundle.getInt("resId");
+            imgDisplay.setImageResource(resId);
+        }
 
         view.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,7 +76,8 @@ public class StartMountainClimbing extends AppCompatActivity {
         mTimerRunning = true;
     }
 
-    private void updateCountDownText(){
+    private void updateCountDownText()
+    {
         int minutes = (int) (mTimeLeftInMillis / 1000) / 60;
         int seconds = (int) (mTimeLeftInMillis / 1000) % 60;
 

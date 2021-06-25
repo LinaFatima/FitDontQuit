@@ -13,6 +13,7 @@ Button btn1;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
+        getSupportActionBar().hide();
         btn1=findViewById(R.id.btn_getStarted);
 
         btn1.setOnClickListener(new View.OnClickListener() {

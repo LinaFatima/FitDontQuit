@@ -39,9 +39,7 @@
                    android:layout_gravity="center"
                    android:orientation="vertical"
                    android:layout_margin="5dp"
-                   android:background="@drawable/bgitemcolor"
-                   >
-
+                   android:background="@drawable/bgitemcolor">
 
                    <LinearLayout
                        android:id="@+id/mountain_pose"
@@ -436,9 +434,7 @@
                android:layout_gravity="center"
                android:orientation="vertical"
                    android:layout_margin="5dp"
-                   android:background="@drawable/bgitemcolor"
-                   android:layout_marginRight="5dp"
-               >
+                   android:background="@drawable/bgitemcolor">
 
 
                <LinearLayout
