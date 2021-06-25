@@ -15,8 +15,7 @@
         android:textAlignment="textEnd"
         android:gravity="end"
         app:title="Fit Don't Quit"
-        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
-        />
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
     <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
