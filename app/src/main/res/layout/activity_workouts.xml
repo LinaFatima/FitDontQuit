@@ -15,9 +15,29 @@
         android:gravity="end"
         android:textAlignment="textEnd"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:title="FitDon'tQuit"
+        android:layout_gravity="center"
         app:titleTextColor="@color/black"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints" >
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FitDon'tQuit"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:fontFamily="serif"
+            android:textColor="#2E2E2E"
+            />
+    </androidx.appcompat.widget.Toolbar>
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
