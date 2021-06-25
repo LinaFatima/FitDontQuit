@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="#78909C"
     tools:context=".HomeScreen"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/tollBar"
         android:layout_width="match_parent"
