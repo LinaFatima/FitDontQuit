@@ -10,7 +10,7 @@
 
     <ImageView
         android:id="@+id/imSplash"
-        android:src="@drawable/logo"
+        android:src="@drawable/pingwing"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_alignParentStart="true"
