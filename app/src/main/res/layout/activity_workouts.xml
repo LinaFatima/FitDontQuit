@@ -91,7 +91,7 @@
                                android:layout_width="wrap_content"
                                android:layout_height="wrap_content"
                                android:text="01:00 MIN"
-                               android:textColor="#C1BEBE"
+                               android:textColor="#CA6D6D"
                                android:textStyle="bold"/>
                        </LinearLayout>
                        <LinearLayout
@@ -166,7 +166,7 @@
                                android:layout_width="wrap_content"
                                android:layout_height="wrap_content"
                                android:text="01:00 MIN"
-                               android:textColor="#C1BEBE"
+                               android:textColor="#CA6D6D"
                                android:textStyle="bold"
                                />
                        </LinearLayout>
@@ -246,7 +246,7 @@
                                android:layout_width="wrap_content"
                                android:layout_height="wrap_content"
                                android:text="01:00 MIN"
-                               android:textColor="#C1BEBE"
+                               android:textColor="#CA6D6D"
                                android:textStyle="bold" />
                        </LinearLayout>
 
@@ -327,7 +327,7 @@
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
                            android:text="01:00 MIN"
-                           android:textColor="#C1BEBE"
+                           android:textColor="#CA6D6D"
                            android:textStyle="bold"
                            />
                    </LinearLayout>
@@ -409,7 +409,7 @@
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
                            android:text="01:00 MIN"
-                           android:textColor="#C1BEBE"
+                           android:textColor="#CA6D6D"
                            android:textStyle="bold"
                            />
                    </LinearLayout>
@@ -492,7 +492,7 @@
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
                            android:text="01:00 MIN"
-                           android:textColor="#C1BEBE"
+                           android:textColor="#CA6D6D"
                            android:textStyle="bold"
                            />
                    </LinearLayout>
@@ -576,7 +576,7 @@
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
                            android:text="01:00 MIN"
-                           android:textColor="#C1BEBE"
+                           android:textColor="#CA6D6D"
                            android:textStyle="bold"
                            />
                    </LinearLayout>
@@ -660,7 +660,7 @@
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
                            android:text="01:00 MIN"
-                           android:textColor="#C1BEBE"
+                           android:textColor="#CA6D6D"
                            android:textStyle="bold"
                            />
                    </LinearLayout>
@@ -742,7 +742,7 @@
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
                            android:text="01:00 MIN"
-                           android:textColor="#C1BEBE"
+                           android:textColor="#CA6D6D"
                            android:textStyle="bold"
                            />
                    </LinearLayout>
@@ -826,7 +826,7 @@
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
                            android:text="01:00 MIN"
-                           android:textColor="#C1BEBE"
+                           android:textColor="#CA6D6D"
                            android:textStyle="bold"
                            />
                    </LinearLayout>
@@ -908,7 +908,7 @@
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
                            android:text="01:00 MIN"
-                           android:textColor="#C1BEBE"
+                           android:textColor="#CA6D6D"
                            android:textStyle="bold"
                            />
                    </LinearLayout>
@@ -992,7 +992,7 @@
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
                            android:text="01:00 MIN"
-                           android:textColor="#C1BEBE"
+                           android:textColor="#CA6D6D"
                            android:textStyle="bold"
                            />
                    </LinearLayout>
@@ -1074,7 +1074,7 @@
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
                            android:text="01:00 MIN"
-                           android:textColor="#C1BEBE"
+                           android:textColor="#CA6D6D"
                            android:textStyle="bold"
                            />
                    </LinearLayout>
@@ -1156,7 +1156,7 @@
                            android:layout_width="wrap_content"
                            android:layout_height="wrap_content"
                            android:text="01:00 MIN"
-                           android:textColor="#C1BEBE"
+                           android:textColor="#CA6D6D"
                            android:textStyle="bold"
                            />
                    </LinearLayout>
@@ -1240,7 +1240,7 @@
                                android:layout_width="wrap_content"
                                android:layout_height="wrap_content"
                                android:text="01:00 MIN"
-                               android:textColor="#C1BEBE"
+                               android:textColor="#CA6D6D"
                                android:textStyle="bold"
                                />
                        </LinearLayout>
